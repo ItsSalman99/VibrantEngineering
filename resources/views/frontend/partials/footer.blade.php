@@ -78,11 +78,11 @@
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1"> Payment Methods</a>
+                        <a href="{{ route('privacy') }}" class="link-hover-style-1 ms-1"> Privacy & Policy</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1"> Services Guide</a>
+                        <a href="{{ route('terms') }}" class="link-hover-style-1 ms-1">Terms & Conditions</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>

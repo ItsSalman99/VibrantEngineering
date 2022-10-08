@@ -32,7 +32,22 @@
                                 <div class="media static-top-widget">
                                     <div class="align-self-center text-center"><i data-feather="user-plus"></i></div>
                                     <div class="media-body"><span class="m-0">Total Machines Uploaded</span>
-                                        <h4 class="mb-0 counter"></h4><i class="icon-bg"
+                                        <h4 class="mb-0 counter">
+                                            {{ $machines }}
+                                        </h4><i class="icon-bg"
+                                            data-feather="user-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card o-hidden">
+                            <div class="bg-primary b-r-4 card-body">
+                                <div class="media static-top-widget">
+                                    <div class="align-self-center text-center"><i data-feather="user-plus"></i></div>
+                                    <div class="media-body"><span class="m-0">Total Spare Parts Uploaded</span>
+                                        <h4 class="mb-0 counter">
+                                            0
+                                        </h4><i class="icon-bg"
                                             data-feather="user-plus"></i>
                                     </div>
                                 </div>

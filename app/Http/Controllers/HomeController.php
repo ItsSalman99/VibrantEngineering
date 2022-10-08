@@ -16,14 +16,19 @@ class HomeController extends Controller
         return view('frontend.about');
     }
 
-    public function machines()
-    {
-        return view('frontend.machines.index');
-    }
-
     public function services()
     {
         return view('frontend.services.index');
+    }
+
+    public function terms()
+    {
+        return view('frontend.termsconditions.terms');
+    }
+
+    public function privacy()
+    {
+        return view('frontend.termsconditions.privacy');
     }
 
 }

@@ -65,146 +65,43 @@
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2300">
                             <div class="row row-gutter-sm px-0 image-gallery sort-destination"
                                 data-sort-id="portfolio" data-total-pages="3">
-                                <div class="col-sm-6 col-md-4 isotope-item design-planning">
-                                    <div class="portfolio-item mb-3 pb-1">
-                                        <a href="demo-architecture-2-projects-detail.html">
-                                            <div
-                                                class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
-                                                <div class="thumb-info-wrapper border-radius-0">
-                                                    <img src="{{ asset('assets/frontend/img/machines/1.jpg') }}"
-                                                        class="img-fluid border-radius-0" alt="">
-                                                    <div class="thumb-info-action flex-column align-items-center">
-                                                        <h4
-                                                            class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                            Project Name</h4>
-                                                        <p class="font-weight-semibold text-color-grey text-2 mb-0">DESIGN
-                                                            AND PLANNING</p>
+                                @forelse ($machines as $machine)
+                                    <div class="col-sm-6 col-md-4 isotope-item design-planning">
+                                        <div class="portfolio-item mb-3 pb-1">
+                                            <a href="{{ route('machines.detail', ['id' => $machine->id]) }}">
+                                                <div
+                                                    class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
+                                                    <div class="thumb-info-wrapper border-radius-0">
+                                                        <img src="{{ asset($machine->thumbnail) }}"
+                                                            class="img-fluid border-radius-0" alt="">
+                                                        <div class="thumb-info-action flex-column align-items-center">
+                                                            <h4
+                                                                class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
+                                                                {{ $machine->name }}
+                                                            </h4>
+                                                            <p class="font-weight-semibold text-color-grey text-2 mb-0">
+                                                                DESIGN AND PLANNING
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </a>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4 isotope-item interior-design">
-                                    <div class="portfolio-item mb-3 pb-1">
-                                        <a href="demo-architecture-2-projects-detail.html">
-                                            <div
-                                                class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
-                                                <div class="thumb-info-wrapper border-radius-0">
-                                                    <img src="{{ asset('assets/frontend/img/machines/2.jpg') }}"
-                                                        class="img-fluid border-radius-0" alt="">
-                                                    <div class="thumb-info-action flex-column align-items-center">
-                                                        <h4
-                                                            class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                            Project Name</h4>
-                                                        <p class="font-weight-semibold text-color-grey text-2 mb-0">DESIGN
-                                                            AND PLANNING</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
+                                    @empty
+                                    <div style="margin-top: 100px; border: 2px solid #eee; border-radius: 10px; padding: 20px">
+                                        <h1 style="font-weight: bold;">
+                                            No Machines Here!!
+                                        </h1>
                                     </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4 isotope-item exterior-design">
-                                    <div class="portfolio-item mb-3 pb-1">
-                                        <a href="demo-architecture-2-projects-detail.html">
-                                            <div
-                                                class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
-                                                <div class="thumb-info-wrapper border-radius-0">
-                                                    <img src="{{ asset('assets/frontend/img/machines/3.jpg') }}"
-                                                        class="img-fluid border-radius-0" alt="">
-                                                    <div class="thumb-info-action flex-column align-items-center">
-                                                        <h4
-                                                            class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                            Project Name</h4>
-                                                        <p class="font-weight-semibold text-color-grey text-2 mb-0">DESIGN
-                                                            AND PLANNING</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4 isotope-item construction-drawings">
-                                    <div class="portfolio-item mb-3 pb-1">
-                                        <a href="demo-architecture-2-projects-detail.html">
-                                            <div
-                                                class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
-                                                <div class="thumb-info-wrapper border-radius-0">
-                                                    <img src="{{ asset('assets/frontend/img/machines/4.jpg') }}"
-                                                        class="img-fluid border-radius-0" alt="">
-                                                    <div class="thumb-info-action flex-column align-items-center">
-                                                        <h4
-                                                            class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                            Project Name</h4>
-                                                        <p class="font-weight-semibold text-color-grey text-2 mb-0">DESIGN
-                                                            AND PLANNING</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4 isotope-item construction-drawings">
-                                    <div class="portfolio-item mb-3 pb-1">
-                                        <a href="demo-architecture-2-projects-detail.html">
-                                            <div
-                                                class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
-                                                <div class="thumb-info-wrapper border-radius-0">
-                                                    <img src="{{ asset('assets/frontend/img/machines/5.jpg') }}"
-                                                        class="img-fluid border-radius-0" alt="">
-                                                    <div class="thumb-info-action flex-column align-items-center">
-                                                        <h4
-                                                            class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                            Project Name</h4>
-                                                        <p class="font-weight-semibold text-color-grey text-2 mb-0">DESIGN
-                                                            AND PLANNING</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4 isotope-item design-planning">
-                                    <div class="portfolio-item mb-3 pb-1">
-                                        <a href="demo-architecture-2-projects-detail.html">
-                                            <div
-                                                class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
-                                                <div class="thumb-info-wrapper border-radius-0">
-                                                    <img src="{{ asset('assets/frontend/img/machines/6.png') }}"
-                                                        class="img-fluid border-radius-0" alt="">
-                                                    <div class="thumb-info-action flex-column align-items-center">
-                                                        <h4
-                                                            class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                            Project Name</h4>
-                                                        <p class="font-weight-semibold text-color-grey text-2 mb-0">DESIGN
-                                                            AND PLANNING</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                                @endforelse
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center appear-animation" data-appear-animation="fadeInUpShorter">
-                    <div id="loadMoreBtnWrapper" class="row text-center mt-3">
-                        <div class="col">
-                            <div id="loadMoreLoader" class="load-more-loader">
-                                <div class="bounce-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                            <button id="loadMore"
-                                class="btn btn-primary custom-btn-style-1 font-weight-bold text-3 px-5 py-3 mb-5">LOAD
-                                MORE+
-                            </button>
-                        </div>
-                    </div>
+
+                <div style="margin-bottom: 70px;">
+                    {{ $machines->links() }}
                 </div>
             </div>
         </div>

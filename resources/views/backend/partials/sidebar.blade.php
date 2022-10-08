@@ -37,11 +37,20 @@
                             <div class="according-menu"><i class="fa fa-angle-down"></i></div>
                         </a>
                         <ul class="sidebar-submenu" style="">
-                            <li><a href="#">All Machines</a></li>
-                            <li><a href="#">Add Machines</a></li>
+                            <li><a href="{{ route('machine.index') }}">All Machines</a></li>
+                            <li><a href="{{ route('machine.create') }}">Add Machines</a></li>
                         </ul>
                     </li>
-
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title active" href="#">
+                            <i data-feather="truck"></i>
+                            <span class="">Spare Parts</span>
+                            <div class="according-menu"><i class="fa fa-angle-down"></i></div>
+                        </a>
+                        <ul class="sidebar-submenu" style="">
+                            <li><a href="#">All Spare Parts</a></li>
+                            <li><a href="#">Add Spare Parts</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
