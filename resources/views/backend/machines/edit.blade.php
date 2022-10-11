@@ -13,7 +13,7 @@
                             <li class="breadcrumb-item"><a href="index.html"> <i data-feather="home"></i></a>
                             </li>
                             <li class="breadcrumb-item">Dashboard</li>
-                            <li class="breadcrumb-item active">Add Machine</li>
+                            <li class="breadcrumb-item active">Edit {{ $machine->name }}</li>
                         </ol>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
                             <div>
-                                <h5>Add New Machine</h5>
+                                <h5>Edit {{ $machine->name }}</h5>
                             </div>
                         </div>
                     </div>
@@ -43,29 +43,37 @@
                                     </ul>
                                 </div>
                             @endif
-                            <form action="{{ route('machine.store') }}" method="POST" enctype="multipart/form-data">
+                            <form action="{{ route('machine.update', ['id' => $machine->id]) }}" method="POST" enctype="multipart/form-data">
                                 @csrf
+                                <div class="text-center">
+                                    <img src="{{ asset($machine->thumbnail) }}" width="50%" alt="">
+                                </div>
                                 <div class="my-4">
                                     <label for="title">Machine Name:</label>
-                                    <input type="text" class="form-control" placeholder="Machine Name" name="name"
-                                        required>
+                                    <input type="text" class="form-control" value="{{ $machine->name }}"
+                                        placeholder="Machine Name" name="name" required>
                                 </div>
                                 <div class="my-4">
                                     <label for="title">Machine Image:</label>
-                                    <input type="file" class="form-control" placeholder="Machine Thumbnail" name="thumbnail" required>
+                                    <input type="file" class="form-control" placeholder="Machine Thumbnail"
+                                        name="thumbnail">
                                 </div>
                                 <div class="my-4">
                                     <label for="category">Belongs To:</label>
                                     <select name="category" required class="form-control form-select">
                                         <option value="">Please Select Machine Category</option>
                                         @foreach ($categories as $category)
-                                            <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                            <option value="{{ $category->id }}" <?php if ($category->id == $machine->category->id) {
+                                                echo 'selected';
+                                            } ?>>
+                                                {{ $category->name }}
+                                            </option>
                                         @endforeach
                                     </select>
                                 </div>
                                 <div class="my-4">
                                     <label for="description">Machine Summary/Description:</label>
-                                    <textarea class="form-control" id="body" placeholder="Enter the Description" name="description"></textarea>
+                                    <textarea class="form-control" id="body" placeholder="Enter the Description" name="description">{{ $machine->description }}</textarea>
                                 </div>
                                 <div class="my-4">
                                     <button class="btn btn-primary">
@@ -77,7 +85,7 @@
                                                 d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z" />
                                         </svg>
                                         <span class="ml-2">
-                                            Upload
+                                            Update
                                         </span>
                                     </button>
                                 </div>

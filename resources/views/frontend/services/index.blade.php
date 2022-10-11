@@ -39,9 +39,22 @@
                 <div class="row">
                     <div class="col">
                         <p class="custom-font-tertiary text-5 line-height-4 mb-4 appear-animation"
-                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">Lorem ipsum dolor sit
+                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500">
+                            Lorem ipsum dolor sit
                             amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est
-                            consectetur.</p>
+                            consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. A quos provident quas
+                            corporis, ab ea aliquid illum et totam eum doloremque cum ullam at non obcaecati neque incidunt
+                            nesciunt facere?
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nihil impedit quo minus
+                            repellat expedita! Maxime odit cum magnam distinctio facere ut fugit amet quae numquam natus
+                            sapiente, consequuntur cupiditate!
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis veniam nihil quia quas
+                            obcaecati architecto assumenda similique temporibus, eum quis delectus magnam nesciunt a
+                            recusandae debitis dignissimos provident ad omnis.
+                        </p>
+                        <hr>
                         <p class="text-3-5 mb-5 appear-animation" data-appear-animation="fadeInUpShorter"
                             data-appear-animation-delay="1700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                             do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -49,83 +62,29 @@
                     </div>
                 </div>
                 <div class="row row-gutter-sm justify-content-center">
-                    <div class="col-md-6 col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="1900">
-                        <a href="demo-architecture-2-services-detail.html" class="text-decoration-none">
-                            <div class="card custom-card-style-1 border-radius-0">
-                                <div class="card-body text-center p-5 mb-4">
-                                    <img width="75" height="75"
-                                        src="{{ asset('assets/frontend/img/demos/architecture-2/icons/house-plant.svg') }}"
-                                        alt="" data-icon
-                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mt-3 mb-4 pb-3'}" />
-                                    <h2 class="text-color-dark font-weight-bold line-height-1 text-6-5 mb-3">
-                                        Ceiling Machines
-                                    </h2>
-                                    <p class="mb-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra
-                                        erat orci.
-                                    </p>
+                    @foreach ($categories as $category)
+                        <div class="col-md-6 col-lg-6 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
+                            data-appear-animation-delay="1900">
+                            <a href="#" class="text-decoration-none">
+                                <div class="card custom-card-style-1 border-radius-0">
+                                    <div class="card-body text-center p-5 mb-4">
+                                        <img width="75" height="75"
+                                            src="{{ asset('assets/frontend/img/demos/architecture-2/icons/house-plant.svg') }}"
+                                            alt="" data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mt-3 mb-4 pb-3'}" />
+                                        <h2 class="text-color-dark font-weight-bold line-height-1 text-6-5 mb-3">
+                                            {{ $category->name }}
+                                        </h2>
+                                        <br><br>
+                                        <a href="{{ route('services.'.strtolower(strtok($category->name, " "))) }}" style="color: #fff!important;"
+                                            class="btn btn-primary  font-weight-semibold text-3-5 btn-px-3 py-2 ws-nowrap ms-4 d-none d-lg-block">
+                                            Read More
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="2100">
-                        <a href="demo-architecture-2-services-detail.html" class="text-decoration-none">
-                            <div class="card custom-card-style-1 border-radius-0">
-                                <div class="card-body text-center p-5 mb-4">
-                                    <img width="75" height="75"
-                                        src="{{ asset('assets/frontend/img/demos/architecture-2/icons/sofa.svg') }}"
-                                        alt="" data-icon
-                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mt-3 mb-4 pb-3'}" />
-                                    <h2 class="text-color-dark font-weight-bold line-height-1 text-6-5 mb-3">
-                                        Packaging Machines
-                                    </h2>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra
-                                        erat orci.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="2300">
-                        <a href="demo-architecture-2-services-detail.html" class="text-decoration-none">
-                            <div class="card custom-card-style-1 border-radius-0">
-                                <div class="card-body text-center p-5 mb-4">
-                                    <img width="75" height="75"
-                                        src="{{ asset('assets/frontend/img/demos/architecture-2/icons/wallpaper.svg') }}"
-                                        alt="" data-icon
-                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mt-3 mb-4 pb-3'}" />
-                                    <h2 class="text-color-dark font-weight-bold line-height-1 text-6-5 mb-3">
-                                        Filling Machines
-                                    </h2>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra
-                                        erat orci.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="200">
-                        <a href="demo-architecture-2-services-detail.html" class="text-decoration-none">
-                            <div class="card custom-card-style-1 border-radius-0">
-                                <div class="card-body text-center p-5 mb-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"
-                                        fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z" />
-                                        <path
-                                            d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
-                                    </svg>
-                                    <h2 class="text-color-dark font-weight-bold line-height-1 text-6-5 mb-3">
-                                        Badge Printers
-                                    </h2>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra
-                                        erat orci.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                    @endforeach
                 </div>
             </div>
 

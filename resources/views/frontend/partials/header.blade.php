@@ -105,9 +105,9 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="demo-business-consulting-3-services-detail.html"
+                                                    <a href="{{ route('services.sealing') }}"
                                                         class="dropdown-item">
-                                                        Ceiling Machines
+                                                        Sealing Machines
                                                     </a>
                                                 </li>
                                                 <li>
