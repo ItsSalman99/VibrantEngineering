@@ -123,6 +123,8 @@
     @yield('extra-js')
     <!-- login js-->
     <!-- Plugin used-->
+    @include('sweetalert::alert')
+
 </body>
 
 </html>

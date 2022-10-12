@@ -9,7 +9,7 @@
                 </h2>
             </div>
             <div class="col-auto">
-                <a href="demo-business-consulting-3-contact.html"
+                <a href="{{ route('contact') }}"
                     class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4"
                     data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                     <span class="text-color-light">Contact Us</span>
@@ -23,8 +23,10 @@
                     <img src="img/demos/business-consulting-3/logo-footer.png" class="img-fluid mb-4" width="123"
                         height="33" alt="" />
                 </a>
-                <p class="text-3-5">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
-                    ehicula leo, vel efficitur fel. </p>
+                <p class="text-3-5">
+                    Vibrant Engineering works tirelessly to process and package goods for a better life. With
+                    intelligent and sustainable solutions, whether it be specific devices, systems, or services.
+                </p>
                 <ul
                     class="social-icons social-icons-clean social-icons-clean-with-border social-icons-medium social-icons-icon-light">
                     <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
@@ -96,7 +98,7 @@
         <div class="row pb-5">
             <div class="col-lg-12 text-center m-0">
                 <hr class="bg-color-light opacity-1 mt-5 mb-4">
-                <p class="text-3-4">Porto Business Consulting. © 2022. All Rights Reserved</p>
+                <p class="text-3-4">Vibrant Engineering. © 2022. All Rights Reserved</p>
             </div>
         </div>
     </div>

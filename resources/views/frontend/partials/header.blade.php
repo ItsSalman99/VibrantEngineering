@@ -131,7 +131,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="demo-business-consulting-3-blog.html">
+                                            <a class="nav-link" href="{{ route('sparepart.index') }}">
                                                 Spare Parts
                                             </a>
                                         </li>

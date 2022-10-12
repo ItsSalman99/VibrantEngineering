@@ -4,6 +4,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MachineController;
+use App\Http\Controllers\SparePartsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
@@ -15,13 +16,15 @@ Route::get('services/sealing-machines', [HomeController::class, 'sealing'])->nam
 Route::get('services/packaging-machines', [HomeController::class, 'packaging'])->name('services.packaging');
 Route::get('services/filling-machines', [HomeController::class, 'filling'])->name('services.filling');
 Route::get('services/badge-machines', [HomeController::class, 'badgePrinters'])->name('services.badge');
+
+Route::get('spare-parts', [SparePartsController::class, 'index'])->name('sparepart.index');
+
 Route::get('/terms-conditions', [HomeController::class, 'terms'])->name('terms');
 Route::get('/privacy-policy', [HomeController::class, 'privacy'])->name('privacy');
 
 Route::get('/contact-us', [ContactController::class, 'index'])->name('contact');
 
-Route::group(['prefix' => 'admin'], function ()
-{
+Route::group(['prefix' => 'admin'], function () {
     // Machine Work Routes
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/all-machines', [MachineController::class, 'allMachines'])->name('machine.index');
@@ -35,7 +38,10 @@ Route::group(['prefix' => 'admin'], function ()
     Route::get('machines/delete/permanenty/{id}', [MachineController::class, 'forceDelete'])->name('machine.force-delete');
 
     // Spare Parts Route
+    Route::get('spare-parts', [SparePartsController::class, 'allSpareParts'])->name('spareparts.index');
+    Route::get('/spare-parts/create', [SparePartsController::class, 'create'])->name('spareparts.create');
+    Route::post('/spare-parts/store', [SparePartsController::class, 'store'])->name('spareparts.store');
 
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

@@ -13,17 +13,18 @@
             <div class="container pb-5 pb-xl-0 mt-md-3 mb-5">
                 <div class="row">
                     <div class="col-md-7 col-lg-12">
-                        <h1 class="custom-big-font-size-1 text-14 font-weight-bold clearfix line-height-1 custom-ws-mobile-wrap ws-nowrap pb-2 mb-3 mb-xl-5 lazyload appear-animation"
+                        <h1 class="text-14 font-weight-bold clearfix line-height-1 custom-ws-mobile-wrap ws-nowrap pb-2 mb-3 mb-xl-5 lazyload appear-animation"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
-                            Pakistan # 01
+                            Pakistan's Leading Manufacturers
                         </h1>
                         <h1 class="word-rotator font-weight-semi-bold clip is-full-width mb-2">
-                            <span>Vibrant Engineering Provides All Kinds Of </span>
+                            <span>Vibrant Engineering Provides All Kinds Of</span>
                             <br>
                             <span class="word-rotator-words bg-primary" style="width: 60.686px; overflow: hidden;">
-                                <b class="is-hidden">Packaging Machines</b>
-                                <b class="is-hidden">Processing Machines</b>
-                                <b class="is-visible">Printers</b>
+                                <b class="is-hidden">SEALING MACHINES</b>
+                                <b class="is-hidden">PACKAGING MACHINES</b>
+                                <b class="is-visible">FILLING MACHINES</b>
+                                <b class="is-visible">BADGE PRINTERS</b>
                             </span>
                         </h1>
                     </div>
@@ -40,9 +41,10 @@
                             </span></strong> --}}
                         <p class="text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
                             data-appear-animation-delay="750">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam ullam nesciunt, illum
-                            rerum molestiae repellendus eos vel totam natus labore consequuntur quisquam asperiores fugit!
-                            Doloribus reprehenderit excepturi magni doloremque
+                            Manufacturers of high-end machines with a solid reputation include Vibrant Engineering. It
+                            offers services for packaging various products using top-of-the-line, specially created
+                            equipment and for selling packaging machines, food processing systems using highly developed and
+                            effective equipment, and pharmaceutical line solutions using exceptional built-in features.
                         </p>
                         <a href="#aboutus" data-hash data-hash-offset="0" data-hash-offset-lg="100"
                             class="d-inline-flex align-items-center text-decoration-none appear-animation"
@@ -89,11 +91,9 @@
                                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                                                 style="width: 154px; height: 26px;" />
                                         </div>
-                                        <h2 class="text-5 font-weight-semibold mb-1">Packaging <br> Machines</h2>
-                                        <p class="pb-1 mb-2">Cras a elit sit amet leo accumsan volutpat.
-                                            Suspendisse hendrerit. </p>
+                                        <h2 class="text-5 font-weight-semibold mb-1">Sealing <br> Machines</h2>
                                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
-                                            View More
+                                            View
                                             <img width="27" height="27"
                                                 src="img/demos/business-consulting-3/icons/arrow-right.svg" alt=""
                                                 data-icon
@@ -120,11 +120,9 @@
                                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                                                 style="width: 154px; height: 26px;" />
                                         </div>
-                                        <h2 class="text-5 font-weight-semibold mb-1">Snack Processing System</h2>
-                                        <p class="pb-1 mb-2">Cras a elit sit amet leo accumsan volutpat.
-                                            Suspendisse hendrerit. </p>
+                                        <h2 class="text-5 font-weight-semibold mb-1">Packaging <br> Machines</h2>
                                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
-                                            View More
+                                            View
                                             <img width="27" height="27"
                                                 src="img/demos/business-consulting-3/icons/arrow-right.svg" alt=""
                                                 data-icon
@@ -151,11 +149,9 @@
                                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                                                 style="width: 154px; height: 26px;" />
                                         </div>
-                                        <h2 class="text-5 font-weight-semibold mb-1">Pharmaceutical Solutions</h2>
-                                        <p class="pb-1 mb-2">Cras a elit sit amet leo accumsan volutpat.
-                                            Suspendisse hendrerit. </p>
+                                        <h2 class="text-5 font-weight-semibold mb-1">Filling <br> Machine</h2>
                                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
-                                            View More
+                                            View
                                             <img width="27" height="27"
                                                 src="img/demos/business-consulting-3/icons/arrow-right.svg" alt=""
                                                 data-icon
@@ -182,11 +178,9 @@
                                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                                                 style="width: 154px; height: 26px;" />
                                         </div>
-                                        <h2 class="text-5 font-weight-semibold mb-1">Bakery <br> Line</h2>
-                                        <p class="pb-1 mb-2">Cras a elit sit amet leo accumsan volutpat.
-                                            Suspendisse hendrerit. </p>
+                                        <h2 class="text-5 font-weight-semibold mb-1">Badge <br> Printers</h2>
                                         <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
-                                            View More
+                                            View
                                             <img width="27" height="27"
                                                 src="img/demos/business-consulting-3/icons/arrow-right.svg" alt=""
                                                 data-icon
@@ -220,13 +214,15 @@
                     <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation"
                         data-appear-animation="fadeInUpShorter">ABOUT US</h2>
                     <h3 class="text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation"
-                        data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">We deliver the
-                        most advanced strategies for your business</h3>
+                        data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
+                        Processing And Packaging Solutions
+                    </h3>
                     <p class="text-3-5 pb-1 mb-4 mb-lg-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="500">Cras a elit sit
-                        amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis
-                        ultrices non. Cras a elit sit amet leo acun volutpat. Suspendisse hendrerit vehicula leo,
-                        vel efficitur fel. </p>
+                        data-appear-animation-delay="500">
+                        Greetings from Vibrant Engineering. We are your dependable partner for processing and packaging
+                        technology in the pharmaceutical and food industries. As a manufacturer of processing and packaging
+                        equipment with more than 30 facilities all over Pakistan, we can draw on years of knowledge.
+                    </p>
                     <div class="row align-items-center pb-2 mb-4 mb-lg-1 mb-xl-4 appear-animation"
                         data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
                         <div class="col-5">
@@ -248,10 +244,12 @@
                     </div>
                     <div class="appear-animation" data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="1000">
-                        <a href="demo-business-consulting-3-contact.html"
+                        <a href="{{ route('contact') }}"
                             class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
-                            data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>Get a
-                                Quote</span></a>
+                            data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>
+                                Get a Quote
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -275,26 +273,25 @@
                         </h2>
                         <h3 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-3 pb-1 appear-animation"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-                            Our E-Catalouges
+                            Our Services
                         </h3>
                         <p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
                             data-appear-animation-delay="750">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugiat cumque iure eius!
-                            Nemo temporibus laborum pariatur dolorum blanditiis illo consequatur corporis mollitia, repellat
-                            minima exercitationem est distinctio reprehenderit! Obcaecati!
+                            For both food and non-food applications, our machines—the best in the business—offer efficiency
+                            and simplicity. Please have a look at our superb catalogs.
                         </p>
                     </div>
                 </div>
                 <div class="row row-gutter-sm justify-content-center mb-5 appear-animation"
                     data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
                     <div class="col-sm-9 col-md-6 col-lg-4 mb-4">
-                        <a href="demo-business-consulting-3-services-detail.html"
-                            class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                        <a href="{{ route('services.sealing') }}" class="custom-link-hover-effects text-decoration-none"
+                            data-cursor-effect-hover="plus">
                             <div class="card box-shadow-4">
                                 <div class="card-img-top position-relative overlay overlay-show">
                                     <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                         <h4 class="font-weight-semibold text-color-light text-6 mb-1">
-                                            Pharmaceutical Line
+                                            SEALING MACHINES
                                         </h4>
                                         <div class="custom-crooked-line">
                                             <img width="154" height="26"
@@ -308,8 +305,9 @@
                                         class="img-fluid" alt="Card Image" />
                                 </div>
                                 <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                    <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
-                                        hendrerit. </p>
+                                    <p class="card-text w-100 mb-0">
+                                        View Our Sealing Machines
+                                    </p>
                                     <img width="50" height="50" class="w-auto"
                                         src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
                                         alt="" data-icon
@@ -320,13 +318,13 @@
                         </a>
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-4 mb-4">
-                        <a href="demo-business-consulting-3-services-detail.html"
+                        <a href="{{ route('services.packaging') }}"
                             class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                             <div class="card box-shadow-4">
                                 <div class="card-img-top position-relative overlay overlay-show">
                                     <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                         <h4 class="font-weight-semibold text-color-light text-6 mb-1">
-                                            Snack Processing Line
+                                            PACKAGING MACHINES
                                         </h4>
                                         <div class="custom-crooked-line">
                                             <img width="154" height="26"
@@ -340,8 +338,9 @@
                                         class="img-fluid" alt="Card Image" />
                                 </div>
                                 <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                    <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
-                                        hendrerit. </p>
+                                    <p class="card-text w-100 mb-0">
+                                        View Our Packaging Machines
+                                    </p>
                                     <img width="50" height="50" class="w-auto"
                                         src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
                                         alt="" data-icon
@@ -352,13 +351,13 @@
                         </a>
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-4 mb-4">
-                        <a href="demo-business-consulting-3-services-detail.html"
-                            class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                        <a href="{{ route('services.filling') }}" class="custom-link-hover-effects text-decoration-none"
+                            data-cursor-effect-hover="plus">
                             <div class="card box-shadow-4">
                                 <div class="card-img-top position-relative overlay overlay-show">
                                     <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                         <h4 class="font-weight-semibold text-color-light text-6 mb-1">
-                                            Bakery Processing
+                                            FILLING MACHINES
                                         </h4>
                                         <div class="custom-crooked-line">
                                             <img width="154" height="26"
@@ -372,8 +371,9 @@
                                         class="img-fluid" alt="Card Image" />
                                 </div>
                                 <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                    <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
-                                        hendrerit. </p>
+                                    <p class="card-text w-100 mb-0">
+                                        View Our Filling Machines
+                                    </p>
                                     <img width="50" height="50" class="w-auto"
                                         src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
                                         alt="" data-icon
@@ -384,13 +384,13 @@
                         </a>
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <a href="demo-business-consulting-3-services-detail.html"
-                            class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                        <a href="{{ route('services.badge') }}" class="custom-link-hover-effects text-decoration-none"
+                            data-cursor-effect-hover="plus">
                             <div class="card box-shadow-4">
                                 <div class="card-img-top position-relative overlay overlay-show">
                                     <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                         <h4 class="font-weight-semibold text-color-light text-6 mb-1">
-                                            Packing Series
+                                            BADGE PRINTERS
                                         </h4>
                                         <div class="custom-crooked-line">
                                             <img width="154" height="26"
@@ -404,8 +404,9 @@
                                         class="img-fluid" alt="Card Image" />
                                 </div>
                                 <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                    <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
-                                        hendrerit. </p>
+                                    <p class="card-text w-100 mb-0">
+                                        View Our Badge Printers
+                                    </p>
                                     <img width="50" height="50" class="w-auto"
                                         src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
                                         alt="" data-icon
@@ -416,13 +417,13 @@
                         </a>
                     </div>
                     <div class="col-sm-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                        <a href="demo-business-consulting-3-services-detail.html"
-                            class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
+                        <a href="{{ route('sparepart.index') }}" class="custom-link-hover-effects text-decoration-none"
+                            data-cursor-effect-hover="plus">
                             <div class="card box-shadow-4">
                                 <div class="card-img-top position-relative overlay overlay-show">
                                     <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
                                         <h4 class="font-weight-semibold text-color-light text-6 mb-1">
-                                            Kitchen Heart
+                                            SPARE PARTS
                                         </h4>
                                         <div class="custom-crooked-line">
                                             <img width="154" height="26"
@@ -436,40 +437,9 @@
                                         class="img-fluid" alt="Card Image" />
                                 </div>
                                 <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                    <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
-                                        hendrerit. </p>
-                                    <img width="50" height="50" class="w-auto"
-                                        src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
-                                        alt="" data-icon
-                                        data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                        style="width: 50px;" />
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-9 col-md-6 col-lg-4">
-                        <a href="demo-business-consulting-3-services-detail.html"
-                            class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
-                            <div class="card box-shadow-4">
-                                <div class="card-img-top position-relative overlay overlay-show">
-                                    <div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
-                                        <h4 class="font-weight-semibold text-color-light text-6 mb-1">
-                                            Agricultural & Industrial Packaging
-                                        </h4>
-                                        <div class="custom-crooked-line">
-                                            <img width="154" height="26"
-                                                src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/infinite-crooked-line') }}.svg"
-                                                alt="" data-icon
-                                                data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                                style="width: 154px;" />
-                                        </div>
-                                    </div>
-                                    <img src="{{ asset('assets/frontend/img/demos/business-consulting-3/services/services-6.jpg') }}"
-                                        class="img-fluid" alt="Card Image" />
-                                </div>
-                                <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                    <p class="card-text w-100 mb-0">Cras a elit sit amet leo accumsan. Suspendisse
-                                        hendrerit. </p>
+                                    <p class="card-text w-100 mb-0">
+                                        View Our Spare Parts
+                                    </p>
                                     <img width="50" height="50" class="w-auto"
                                         src="{{ asset('assets/frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}"
                                         alt="" data-icon
@@ -482,7 +452,7 @@
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <a href="demo-business-consulting-3-services.html"
+                        <a href="{{ route('machines') }}"
                             class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
                             data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                             <span>All Machines</span>
@@ -512,7 +482,6 @@
                             data-bg-src="{{ asset('assets/frontend/img/demos/business-consulting-3/backgrounds/text-background-2.jpg') }}"
                             data-plugin-float-element
                             data-plugin-options="{'startPos': 'top', 'speed': 0.6, 'transition': true, 'horizontal': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-
                             BENEFITS
                         </h2>
                     </div>
@@ -520,33 +489,41 @@
                         <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">WHY US</h2>
                         <h3 class="text-9 line-height-3 text-transform-none font-weight-medium text-color-light ls-0 mb-3 pb-1 appear-animation"
-                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Learn Here
-                            The Main Reasons Why You Should Choose Us</h3>
+                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+                            We Have All The Perfect Reasons To Choose Us
+                        </h3>
                         <p class="text-3-5 pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                            data-appear-animation-delay="750">Cras a elit sit amet leo accumsan volutpat.
-                            Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. </p>
+                            data-appear-animation-delay="750">
+                        </p>
                         <ul class="list ps-0 pe-lg-5 mb-0">
                             <li class="d-flex align-items-start pb-1 mb-3 appear-animation"
                                 data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
                                 <i
                                     class="fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle p-3"></i>
-                                <span class="text-3-5 ps-3">We wil identify where you're getting off-track in all
-                                    areas and not just</span>
+                                <span class="text-3-5 ps-3">
+                                    Our very pleased clients come from well-known businesses using Vibrant Engineering's
+                                    extensive equipment for a long time with excellent reviews.
+                                </span>
                             </li>
                             <li class="d-flex align-items-start pb-1 mb-3 appear-animation"
                                 data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
                                 <i
                                     class="fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle p-3"></i>
-                                <span class="text-3-5 ps-3">We create a program that accelerates your strategic
-                                    execution and growth goals.
+                                <span class="text-3-5 ps-3">
+                                    With the help of our digital solutions, you can take back control of your
+                                    manufacturing procedures and create transparency for machine and product data wherever
+                                    you are.
                                 </span>
                             </li>
                             <li class="d-flex align-items-start appear-animation" data-appear-animation="fadeInUpShorter"
                                 data-appear-animation-delay="1500">
                                 <i
                                     class="fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle p-3"></i>
-                                <span class="text-3-5 ps-3">Consistently hit strategic objectives and revenue
-                                    targets, and grow, year over year.</span>
+                                <span class="text-3-5 ps-3">
+                                    We assist you through the machine's life cycle, from managing
+                                    spare parts to digital line
+                                    optimization.
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -558,11 +535,12 @@
             <div class="row align-items-center py-4 my-5 mb-lg-0 my-xl-5">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <h2 class="text-9 line-height-3 text-transform-none font-weight-semibold mb-4">
-                        Skills That Make a Meaningful Difference for Your Business
+                        We Got The Skills That Make Us Unique From our Competitors
                     </h2>
-                    <p class="text-3-5 pb-3 mb-4">Cras a elit sit amet leo accumsan volutpat. Suspendisse
-                        hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo acun
-                        volutpat. </p>
+                    <p class="text-3-5 pb-3 mb-4">
+                        We provide adaptable equipment to handle a variety of pack styles while pursuing environmentally
+                        friendly packaging options.
+                    </p>
                     <div class="progress-bars pb-4">
                         <div class="progress-label d-flex justify-content-between">
                             <span class="text-color-dark font-weight-semibold text-2">24/7 Support</span>
@@ -588,10 +566,10 @@
 
                         <div class="progress-label d-flex justify-content-between pt-2">
                             <span class="text-color-dark font-weight-semibold text-2">Guaranteed Work</span>
-                            <span class="text-color-dark font-weight-semibold text-2">50%</span>
+                            <span class="text-color-dark font-weight-semibold text-2">90%</span>
                         </div>
                         <div class="progress progress-xs progress-no-border-radius bg-color-light-scale-1 mb-4">
-                            <div class="progress-bar progress-bar-primary" data-appear-progress-animation="50%">
+                            <div class="progress-bar progress-bar-primary" data-appear-progress-animation="90%">
                             </div>
                         </div>
                     </div>
@@ -609,7 +587,8 @@
                 <div class="row">
                     <div class="col text-center">
                         <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation"
-                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">TESTIMONIALS
+                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
+                            Our Satisfied Clients
                         </h2>
                         <h3 class="text-9 line-height-3 text-transform-none font-weight-semibold text-color-dark pb-3 mb-4 appear-animation"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">What People
@@ -630,16 +609,15 @@
                                         style="width: 40px;" />
                                     <blockquote>
                                         <p class="text-color-dark text-4 line-height-8 alternative-font-4 mb-0">
-                                            Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast
-                                            ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo
-                                            acun volutpat. Suspendisse hendrerit vehicula leo, vel efficitur fel.
+                                            We are truly blessed to work with Vibrant Engineering, and their modern
+                                            technology makes our work easy. Thank you so much, guys!
                                         </p>
                                     </blockquote>
                                     <div class="testimonial-author">
                                         <p>
-                                            <strong class="font-weight-bold text-5-5 negative-ls-1">- John
-                                                Doe</strong>
-                                        <p class="text-color-dark mb-0">Porto Founder</p>
+                                            <strong class="font-weight-bold text-5-5 negative-ls-1">
+
+                                            </strong>
                                         </p>
                                     </div>
                                 </div>
@@ -653,15 +631,16 @@
                                         style="width: 40px;" />
                                     <blockquote>
                                         <p class="text-color-dark text-4 line-height-8 alternative-font-4 mb-0">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus
-                                            porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem
-                                            ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            Kudos to the team of Vibrant Engineering for providing us with perfect packaging
+                                            machines and processing systems. We can be happier, and we will tell everyone
+                                            about you guys.
+                                        </p>
                                     </blockquote>
                                     <div class="testimonial-author">
                                         <p>
-                                            <strong class="font-weight-bold text-5-5 negative-ls-1">- John
-                                                Smith</strong>
-                                        <p class="text-color-dark mb-0">Porto Founder</p>
+                                            <strong class="font-weight-bold text-5-5 negative-ls-1">
+
+                                            </strong>
                                         </p>
                                     </div>
                                 </div>
@@ -690,12 +669,14 @@
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">GET IN TOUCH
                         </h2>
                         <h3 class="text-9 line-height-3 text-transform-none font-weight-medium text-color-light ls-0 mb-3 pb-1 appear-animation"
-                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Send Us a
-                            Message and Learn More About Our Services</h3>
+                            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+                            We Are Waiting for You!
+                        </h3>
                         <p class="text-3-5 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                            data-appear-animation-delay="750">Cras a elit sit amet leo accumsan volutpat.
-                            Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit
-                            amet. </p>
+                            data-appear-animation-delay="750">
+                            Our manufacturers are waiting for you, so all you have to do is fill out the form, and we will
+                            join you shortly.
+                        </p>
                         <form class="contact-form form-style-4 form-placeholders-light form-errors-light appear-animation"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000"
                             action="https://www.okler.net/previews/porto/9.8.0/php/contact-form.php" method="POST">

@@ -47,8 +47,17 @@
                             <div class="according-menu"><i class="fa fa-angle-down"></i></div>
                         </a>
                         <ul class="sidebar-submenu" style="">
-                            <li><a href="#">All Spare Parts</a></li>
-                            <li><a href="#">Add Spare Parts</a></li>
+                            <li><a href="{{ route('spareparts.index') }}">All Spare Parts</a></li>
+                            <li><a href="{{ route('spareparts.create') }}">Add Spare Parts</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-list"><a class="sidebar-link sidebar-title active" href="#">
+                            <i data-feather="settings"></i>
+                            <span class="">Application Settings</span>
+                            <div class="according-menu"><i class="fa fa-angle-down"></i></div>
+                        </a>
+                        <ul class="sidebar-submenu" style="">
+                            <li><a href="{{ route('spareparts.index') }}">Header Settings</a></li>
                         </ul>
                     </li>
                 </ul>

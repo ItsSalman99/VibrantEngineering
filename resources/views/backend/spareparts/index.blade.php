@@ -10,11 +10,10 @@
                     </div>
                     <div class="col-6">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">
-                                <i data-feather="home"></i></a>
+                            <li class="breadcrumb-item"><a href="index.html"> <i data-feather="home"></i></a>
                             </li>
                             <li class="breadcrumb-item">Dashboard</li>
-                            <li class="breadcrumb-item active">All Machine</li>
+                            <li class="breadcrumb-item active">All Spare Parts</li>
                         </ol>
                     </div>
                 </div>
@@ -27,10 +26,10 @@
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
                             <div>
-                                <h5>ALL MACHINES</h5>
+                                <h5>ALL SPARE PARTS</h5>
                             </div>
                             <div>
-                                <a href="{{ route('machine.trash') }}" class="btn btn-danger">
+                                <a href="#" class="btn btn-danger">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
                                         <path
@@ -48,7 +47,6 @@
                                     <th scope="col">#</th>
                                     <th scope="col">THUMBNAIL</th>
                                     <th scope="col">NAME</th>
-                                    <th scope="col">BELONGS TO</th>
                                     <th>
                                         PUBLISHED AT
                                     </th>
@@ -57,19 +55,18 @@
                                     </th>
                             </thead>
                             <tbody>
-                                @forelse ($machines as $machine)
+                                @forelse ($spareparts as $sparepart)
                                     <tr>
-                                        <th scope="row"> {{ $machine->id }} </th>
+                                        <th scope="row"> {{ $sparepart->id }} </th>
                                         <td style="width: 30%;">
-                                            <img src="{{ asset($machine->thumbnail) }}" alt="" width="40%">
+                                            <img src="{{ asset($sparepart->thumbnail) }}" alt="" width="40%">
                                         </td>
-                                        <td>{{ $machine->name }}</td>
-                                        <td>{{ $machine->category->name }}</td>
-                                        <td>{{ date('F, j Y', strtotime($machine->created_at)) }}</td>
+                                        <td>{{ $sparepart->name }}</td>
+                                        <td>{{ date('F, j Y', strtotime($sparepart->created_at)) }}</td>
                                         <td>
                                             <div class="d-flex">
                                                 <div>
-                                                    <a href="{{ route('machine.edit', ['id' => $machine->id]) }}"
+                                                    <a href="#"
                                                         class="btn btn-small btn-primary">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                             height="16" fill="currentColor" class="bi bi-pencil-square"
@@ -82,7 +79,7 @@
                                                     </a>
                                                 </div>
                                                 <div>
-                                                    <a href="{{ route('machine.destroy', ['id' => $machine->id]) }}"
+                                                    <a href="#"
                                                         class="btn btn-small btn-danger">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                             height="16" fill="currentColor" class="bi bi-trash-fill"

@@ -39,32 +39,31 @@
                     </h2>
                     <p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                        vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus laoreet
-                        lacinia. Maecenas luctus arcu ut orci lacinia ultrices. Praesent semper porta interdum. Etiam
-                        cursus, tortor at interdum rutrum, metus nibh tincidunt purus, non tincidunt odio arcu quis erat.
+                        Vibrant Engineering provides packaging equipment and systems for processing products. We offer all
+                        of the goods and services required by our clients to meet industry standards for excellence. Vibrant
+                        Engineering has a solid reputation for producing high-quality machines and processing systems and
+                        providing dependable service and great value for the money. We offer a full range of services,
+                        including consulting, automation, and spare parts availability. Local firms, including private,
+                        public limited, and multinational organizations, are directly connected to Vibrant Engineering.
                     </p>
                     <p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                        vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus laoreet
-                        lacinia. Maecenas luctus arcu ut orci lacinia ultrices. Praesent semper porta interdum. Etiam
-                        cursus, tortor at interdum rutrum, metus nibh tincidunt purus, non tincidunt odio arcu quis erat.
+                        Due to its many advantages over other materials, flexible packaging is growing in popularity. The
+                        Solution is determined by the customer's goods and packaging type. We break the stereotype of coming
+                        to the store and buying. You can digitally buy the machinery with just one click.
                     </p>
                     <p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                        vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus laoreet
-                        lacinia. Maecenas luctus arcu ut orci lacinia ultrices. Praesent semper porta interdum. Etiam
-                        cursus, tortor at interdum rutrum, metus nibh tincidunt purus, non tincidunt odio arcu quis erat.
+                        Vibrant Engineering offers a comprehensive range of premium goods, cutting-edge technology, and more
+                        than years of knowledge and experience to help businesses optimize their processes and machinery. We
+                        can provide you with the best Solution by collaborating with the leaders in the field.
                     </p>
                     <p class="mb-5 appear-animation" data-appear-animation="fadeInUpShorter"
-                        data-appear-animation-delay="750">Curabitur vulputate posuere tortor luctus vulputate. Cras laoreet
-                        pretium blandit. Vestibulum luctus laoreet lacinia. Maecenas luctus arcu ut orci lacinia ultrices.
-                        Praesent semper porta interdum. Etiam cursus, tortor at interdum rutrum, metus nibh tincidunt purus,
-                        non tincidunt odio arcu quis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Curabitur vulputate posuere tortor luctus vulputate. Cras laoreet pretium blandit. Vestibulum luctus
-                        laoreet lacinia. </p>
+                        data-appear-animation-delay="750">
+                        Our in-house service department provides highly qualified specialists with knowledge of how to get
+                        the greatest performance out of your equipment. They also know how to create a customized service
+                        and maintenance plan that meets your production requirements.
+                    </p>
                     <div class="row row-gutter-sm align-items-center pb-3 mb-5">
                         <div class="col-lg-6 col-xl-7">
                             <div class="row flex-xl-nowrap align-items-center mb-4 mb-lg-0">
@@ -83,8 +82,9 @@
                                 <div class="col-sm-7 col-md-8">
                                     <blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2 appear-animation"
                                         data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1200">
-                                        <p class="mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse
-                                            hendreriast ehicula leo. </p>
+                                        <p class="mb-0">
+                                            We have satisfied clients all over in the Pakistan
+                                        </p>
                                     </blockquote>
                                 </div>
                             </div>
@@ -102,8 +102,10 @@
                                     data-appear-animation-delay="1600">
                                     <a href="demo-business-consulting-3-contact.html"
                                         class="btn btn-dark custom-btn-style-1 font-weight-semibold btn-px-3 btn-py-2 text-3-5"
-                                        data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>Contact
-                                            Us</span></a>
+                                        data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>
+                                            All Machines
+                                        </span>
+                                    </a>
                                 </div>
                                 <div class="col-auto mt-4 mt-sm-0 appear-animation"
                                     data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1800">
@@ -143,33 +145,43 @@
             </div>
         </div>
 
-        @include('frontend.partials.brands')
-
-
         <div class="container py-5">
             <h1>
                 Our Mission
             </h1>
             <div class="row align-items-center">
                 <div class="col">
-                    <p class="text-4 line-height-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet
-                        libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semr
-                        vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="text-4 line-height-9">
+                        Everything we do emphasizes how it affects the environment and society. Vibrant Engineering is a
+                        pioneer in creating environmentally friendly packaging options, actively works to cut down on
+                        machine energy use, and sets high emission reduction targets.
+                        <br>
+                        Our machines and processing systems are all cleared to go and stand on all of the sustainable
+                        development goals. We made sure of that.
+                        <br>
+                        Automated packaging equipment requires a substantial investment. We think you deserve a partner who
+                        will go above and above to realize your packaging ideas and deliver the best ROI. Whatever you want
+                        to bag, we will figure out a way to make it happen. We enjoy a good challenge. Let's go for it.
+
+                    </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <p class="m-0 p-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id
-                        nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci.</p>
+                    <p class="m-0 p-0">
+                    </p>
                     <ul class="list list-icons list-primary mt-4">
                         <li class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0"><i
-                                class="fas fa-check"></i> Fusce sit amet orci quis arcu vestibulum.</li>
+                                class="fas fa-check"></i>
+                            100% Satisfaction
+                        </li>
                         <li class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                            <i class="fas fa-check"></i> Fusce sit amet orci quis arcu vestibulum stibulum.
+                            <i class="fas fa-check"></i>
+                            Guaranteed Work
                         </li>
                         <li class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
-                            <i class="fas fa-check"></i> Fusce sit amet orci q vestibulum vestibulum.
+                            <i class="fas fa-check"></i>
+                            24/7 Support
                         </li>
                     </ul>
                     <div class="d-flex align-items-center justify-content-start pt-4 appear-animation"
@@ -260,15 +272,19 @@
                 </div>
                 <div class="col-lg-7">
                     <p class="text-4 line-height-9 appear-animation" data-appear-animation="fadeIn"
-                        data-appear-animation-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                        imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semr
-                        vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit.</p>
+                        data-appear-animation-delay="100">
+                        Our vision is to provide everyone with sensible, sustainable solutions. We motivate you with new
+                        heights of efficiency and simplicity. We consistently cut back on resource utilization, product
+                        loss, and waste. Our solutions are quick, efficient, and versatile. With everything from machinery
+                        and systems to consulting and services, we help you establish your competitive advantage.
+                    </p>
                     <p class="m-0 p-0 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed
-                        porta est consectetur. Vestibulum auctor felis eget orci semr vestibulum. Pellentesque ultricies
-                        nibh gravida, accumsan libero luctus, molestie nunc. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit.</p>
+                        As diverse as our products are, so are our consumers. In the food sector, they span retail and
+                        premium brands, while in the pharmaceutical and generics manufacturing industries, they span
+                        start-ups and large enterprises. As a processing and packaging equipment manufacturer with up to
+                        years of experience, we have more than 30 facilities all over Pakistan. We uphold our ideals of
+                        reliability, zeal, commitment, and fairness.
+                    </p>
                     <div class="counters custom-counters mt-5 d-flex">
                         <div class="counter counter-primary appear-animation" data-appear-animation="fadeInUpShorter"
                             data-appear-animation-delay="1000">

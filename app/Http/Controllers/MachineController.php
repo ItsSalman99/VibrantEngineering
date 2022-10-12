@@ -91,11 +91,11 @@ class MachineController extends Controller
 
             $filename = time() . '.' . $request->thumbnail->extension();
 
-            $request->thumbnail->move(public_path('assets/frontend/img/machines/upload'), $filename);
+            $request->thumbnail->move(public_path('assets/frontend/img/machines/upload/machines/'), $filename);
 
             $machine->name = $request->name;
             $machine->description = $request->description;
-            $machine->thumbnail = 'assets/frontend/img/machines/upload/' . $filename;
+            $machine->thumbnail = 'assets/frontend/img/machines/upload/machines/' . $filename;
             $machine->category_id = $request->category;
 
             $machine->save();

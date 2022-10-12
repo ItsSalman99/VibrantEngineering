@@ -17,7 +17,7 @@
                             <div class="col-md-12 align-self-center p-static text-center">
                                 <div class="overflow-hidden mb-2">
                                     <h1 class="font-weight-black text-12 mb-0 appear-animation"
-                                        data-appear-animation="maskUp" data-appear-animation-delay="1200">Machines</h1>
+                                        data-appear-animation="maskUp" data-appear-animation-delay="1200">Spare Parts</h1>
                                 </div>
                             </div>
                             <div class="col-md-12 align-self-center">
@@ -26,7 +26,7 @@
                                         data-appear-animation="maskUp" data-appear-animation-delay="1450">
                                         <li class="text-transform-none"><a href="demo-architecture-2.html"
                                                 class="text-decoration-none">Home</a></li>
-                                        <li class="text-transform-none active">Machines</li>
+                                        <li class="text-transform-none active">Spare Parts</li>
                                     </ul>
                                 </div>
                             </div>
@@ -40,20 +40,14 @@
             <div class="container container-xl-custom pt-5 mt-5">
                 <div class="row py-5 mb-4">
                     <div class="col text-center position-relative">
-                        <div class="position-absolute transform3dx-n50 left-50pct z-index-0 appear-animation"
-                            data-appear-animation="fadeIn" data-appear-animation-delay="2000" style="top: 100px;">
-                            <h2
-                                class="text-color-dark custom-stroke-text-effect-1 custom-big-font-size-1 font-weight-black opacity-1 mb-0">
-                                MACHINES
-                            </h2>
-                        </div>
+
                         <div class="overflow-hidden mb-2">
                             <h2 class="text-color-default positive-ls-3 line-height-3 text-4 mb-0 appear-animation"
-                                data-appear-animation="maskUp" data-appear-animation-delay="1500">ALL MACHINES</h2>
+                                data-appear-animation="maskUp" data-appear-animation-delay="1500">ALL SPARE PARTS</h2>
                         </div>
                         <div class="overflow-hidden mb-3">
                             <h3 class="text-transform-none text-color-dark font-weight-black text-10 line-height-2 mb-0 appear-animation"
-                                data-appear-animation="maskUp" data-appear-animation-delay="1700">MACHINES</h3>
+                                data-appear-animation="maskUp" data-appear-animation-delay="1700">SPARE PARTS</h3>
                         </div>
                         <img src="img/demos/architecture-2/divider.jpg" class="img-fluid opacity-5 appear-animation"
                             data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1900" alt="" />
@@ -65,19 +59,19 @@
                             data-appear-animation-delay="2300">
                             <div class="row row-gutter-sm px-0 image-gallery sort-destination" data-sort-id="portfolio"
                                 data-total-pages="3">
-                                @forelse ($machines as $machine)
+                                @forelse ($spareparts as $sparepart)
                                     <div class="col-sm-6 col-md-4 isotope-item design-planning">
                                         <div class="portfolio-item mb-3 pb-1">
-                                            <a href="{{ route('machines.detail', ['id' => $machine->id]) }}">
+                                            <a href="#">
                                                 <div
                                                     class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-centered-icons border-radius-0">
                                                     <div class="thumb-info-wrapper border-radius-0">
-                                                        <img src="{{ asset($machine->thumbnail) }}"
+                                                        <img src="{{ asset($sparepart->thumbnail) }}"
                                                             class="img-fluid border-radius-0" alt="">
                                                         <div class="thumb-info-action flex-column align-items-center">
                                                             <h4
                                                                 class="text-color-light font-weight-bold line-height-2 text-6 ls-0 mb-0">
-                                                                {{ $machine->name }}
+                                                                {{ $sparepart->name }}
                                                             </h4>
                                                         </div>
                                                     </div>
@@ -89,7 +83,7 @@
                                     <div
                                         style="margin-top: 100px; border: 2px solid #eee; border-radius: 10px; padding: 20px">
                                         <h1 style="font-weight: bold;">
-                                            No Machines Here!!
+                                            No Spare Parts Here Now!!
                                         </h1>
                                     </div>
                                 @endforelse
@@ -99,7 +93,7 @@
                 </div>
 
                 <div style="margin-bottom: 70px;">
-                    {{ $machines->links() }}
+                    {{ $spareparts->links() }}
                 </div>
             </div>
         </div>
